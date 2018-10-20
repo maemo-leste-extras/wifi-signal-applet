@@ -2,7 +2,7 @@ Source: wifi-signal-applet
 Section: user/desktop
 Priority: extra
 Maintainer: Faheem Pervez <trippin1@gmail.com>
-Build-Depends: debhelper (>= 5), autotools-dev, autoconf, automake1.9 | automake1.8, libhildon1-dev, libgtk2.0-dev, libglib2.0-dev, libhildondesktop1-dev, libdbus-glib-1-dev, libconic0-dev, icd2-dev, libpango1.0-dev, libcairo2-dev, libgconf2-dev, libosso-dev, hildon-control-panel-dev
+Build-Depends: debhelper (>= 5), autotools-dev, autoconf, automake, libhildon1-dev, libgtk2.0-dev, libglib2.0-dev, libhildondesktop1-dev, libdbus-glib-1-dev, libconic0-dev, icd2-dev, libpango1.0-dev, libcairo2-dev, libgconf2-dev, libosso-dev, hildon-control-panel-dev
 Standards-Version: 3.7.2
 
 Package: wifi-signal-applet
