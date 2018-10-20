@@ -1,0 +1,24 @@
+<gconfschemafile>
+	<schemalist>
+		<schema>
+			<key>/schemas@WIFI_SIGNAL_APPLET_GCONF_FOLDER@@MIN_TIME_GCONF_KEY@</key>
+			<applyto>@WIFI_SIGNAL_APPLET_GCONF_FOLDER@@MIN_TIME_GCONF_KEY@</applyto>
+			<owner>@PACKAGE@</owner>
+			<type>int</type>
+			<default>@MIN_TIME_DEFAULT@</default>
+			<locale name="C">
+				<short>Minimum time in seconds that must be waited before the updating function is called.</short>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas@WIFI_SIGNAL_APPLET_GCONF_FOLDER@@MAX_TIME_GCONF_KEY@</key>
+			<applyto>@WIFI_SIGNAL_APPLET_GCONF_FOLDER@@MAX_TIME_GCONF_KEY@</applyto>
+			<owner>@PACKAGE@</owner>
+			<type>int</type>
+			<default>@MAX_TIME_DEFAULT@</default>
+			<locale name="C">
+				<short>Time in seconds when the wait must end for calling the updating function.</short>
+			</locale>
+		</schema>
+	</schemalist>
+</gconfschemafile>

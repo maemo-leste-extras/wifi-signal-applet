@@ -1,0 +1,36 @@
+wifi-signal-applet (0.4) unstable; urgency=low
+
+  * Fix idiotic mistake: The size_t is the last argument of memset(), not the second.
+
+ -- Faheem Pervez <trippin1@gmail.com>  Fri, 11 Jun 2010 04:44:36 -0600
+
+wifi-signal-applet (0.3) unstable; urgency=low
+
+  * This one is the "Dope Fiend Beat".
+  * Remove Control Panel weirdness: Don't add automatically.
+  * Only show if connected through Wi-Fi (duh) (infrastructure).
+
+ -- Faheem Pervez <trippin1@gmail.com>  Thu, 10 Jun 2010 15:58:25 +0100
+
+wifi-signal-applet (0.2) unstable; urgency=low
+
+  * The "Freaky Tales" relea$e.
+  * Add watching for GConf keys to give configurable timeouts.
+  * Include shitty Control Panel for configuring said timeouts.
+  * From 0.2 onwards, GPL v2 only.
+  * Derive applet from HDStatusPluginItem; it displays nothing in the Status Menu.
+  * Make last_signal_strength a gint: Update from off even if last_signal_strength was 0.
+  * Use IPHB-based timeout function instead of g_timeout_seconds_add().
+  * Clean up redundant code in wifi_signal_applet_update_image ().
+  * Disconnect all signal handlers registered in finalize.
+  * Force update if we've just connected, regardless of timeout.
+  * Remove redundant gdk_pixbuf_fill in init. function.
+  * Connect signal handlers etc. in the constructed function.
+
+ -- Faheem Pervez <trippin1@gmail.com>  Wed, 09 Jun 2010 17:01:31 +0100
+
+wifi-signal-applet (0.1) unstable; urgency=low
+
+  * Initial Release; the "Balls and My Word" release.
+
+ -- Faheem Pervez <trippin1@gmail.com>  Tue, 08 Jun 2010 19:25:02 +0100

@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Wi-Fi Signal Applet
+Comment=Wi-Fi Signal Applet
+Type=default
+X-Path=wifi-signal-applet.so

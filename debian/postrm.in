@@ -1,0 +1,16 @@
+#!/bin/sh
+set -e
+
+# Automatically added by dh_gconf
+if [ "$1" = purge ]; then
+	OLD_DIR=/etc/gconf/schemas
+	SCHEMA_FILES="@PACKAGE@.schemas "
+	if [ -d $OLD_DIR ]; then
+		for SCHEMA in $SCHEMA_FILES; do
+			rm -f $OLD_DIR/$SCHEMA
+		done
+		rmdir $OLD_DIR || true
+	fi
+fi
+# End automatically added section
+

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.1
+Name=Wi-Fi Signal Applet
+Comment=Wi-Fi Signal Applet
+Type=HildonControlPanelPlugin
+Icon=general_wlan
+X-control-panel-plugin=wifi-signal-cpa.so
+Categories=extras
