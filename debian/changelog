@@ -1,3 +1,9 @@
+wifi-signal-applet (0.5) unstable; urgency=low
+
+  * Initial Maemo Leste import
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 20 Oct 2018 13:15:59 +0200
+
 wifi-signal-applet (0.4) unstable; urgency=low
 
   * Fix idiotic mistake: The size_t is the last argument of memset(), not the second.
