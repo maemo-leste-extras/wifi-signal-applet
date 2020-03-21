@@ -1,3 +1,9 @@
+wifi-signal-applet (0.5.1) unstable; urgency=low
+
+  * Fix autotools build issues
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 21 Mar 2020 21:53:43 +0100
+
 wifi-signal-applet (0.5) unstable; urgency=low
 
   * Initial Maemo Leste import
