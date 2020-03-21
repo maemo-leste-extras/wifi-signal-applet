@@ -12,6 +12,7 @@ AC_PROG_INSTALL
 AC_DISABLE_STATIC
 AM_PROG_LIBTOOL
 AC_PREFIX_DEFAULT(/usr)
+PKG_PROG_PKG_CONFIG
 
 # AC_PREFIX_DEFAULT does not get expanded until too late so we need to do this to use prefix in this script --conny 
 if test "x$prefix" = "xNONE" ; then
@@ -38,8 +39,7 @@ AC_SUBST([CONTROL_PANEL_LIB_DIR])
 CONTROL_PANEL_DESKTOP_DIR=`pkg-config hildon-control-panel --variable=plugindesktopentrydir`
 AC_SUBST([CONTROL_PANEL_DESKTOP_DIR])
 
-AC_PATH_PROG([GLIBGENMARSHAL], [`$PKG_CONFIG glib-2.0 --variable=glib_genmarshal`])
-AC_SUBST([GLIBGENMARSHAL])
+AC_PATH_PROG(GLIBGENMARSHAL, glib-genmarshal)
 
 WIFI_SIGNAL_APPLET_GCONF_FOLDER="/apps/wifi-signal-applet"
 AC_DEFINE_UNQUOTED(WIFI_SIGNAL_APPLET_GCONF_FOLDER, "$WIFI_SIGNAL_APPLET_GCONF_FOLDER", [GConf folder in which Wi-Fi Signal Applet will store its settings])
